@@ -1,0 +1,64 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    color: #333333;
+    background-color: #efefef;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a {
+    color: #0082e7;
+}
+
+/* Wrapper layout */
+.wrapper {
+    width: 900px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    background-color: #ffffff;
+}
+
+/* Paddings */
+.content,
+.sidebar,
+.footer {
+    padding: 1rem;
+}
+
+/* Header section  */
+.header_outer {
+    background-color: #d2dce5;
+}
+
+/* Site title and tagline  */
+.site_title a {
+    text-decoration: none;
+}
+
+/* Menu section  */
+.menu {
+    padding-top: 2rem;
+    text-align: right;
+    font-size: 1.2rem;
+}
+
+.menu a {
+    margin: 1rem;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    transition-timing-function: ease-out;
+}
+
+.menu a:last-child {
+    margin-right: 0;
+}
+
+.menu a:hover {
+    background-color: #0082e7;
+    color: #ffffff;
+}

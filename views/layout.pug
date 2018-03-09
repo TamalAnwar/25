@@ -1,0 +1,25 @@
+doctype html
+html(lang="en")
+    head
+        title
+        link(rel="stylesheet" href="style.css")
+    body
+        .header_outer
+            .wrapper
+                .header
+                    h1.site_title
+                        a(href="/index") Tamal Anwar
+                    p.site_tagline WordPress &amp; NodeJS Developer
+                .menu
+                    a(href="index") Home
+                    a(href="about") About
+                    a(href="contact") Contact
+                    a(href="portfolio") Portfolio
+        .wrapper.container
+            .content
+                div
+                    h2= title
+                    block content
+            .sidebar
+            .footer
+                p &copy; 2018 Tamal Anwar
